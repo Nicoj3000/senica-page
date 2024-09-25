@@ -6,11 +6,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons"
 
 import {
-    BookText,
-    CodeSquare,
-    HomeIcon,
-    UserRound,
-    Speech,
     Laptop,
     Server,
     AirVent,
