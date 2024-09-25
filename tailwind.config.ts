@@ -12,8 +12,12 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      margin: {
+        '25': '6.25rem', // Añade un margen personalizado de 11.25rem (180px)
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
