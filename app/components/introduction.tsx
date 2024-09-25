@@ -12,6 +12,7 @@ const Introduction = () => {
   return (
     <ContainerPage>
       <div className="z-20 w-full bg-darkBg/60 flex justify-center items-center">
+
         <div className="grid items-center h-full p-10 py-20 md:py-6 md:grid-cols-2 gap-10">
           <div className="flex justify-center">
             <Image src="/senica-logo.png" alt="Profile pic" width={800} height={800} className="mx-auto md:w-[350px] md:h-[350px] h-[250px] w-[250px]" />
