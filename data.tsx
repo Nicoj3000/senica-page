@@ -3,16 +3,23 @@ import {
     faFacebook,
     faInstagram,
     faWhatsapp,
+    
 } from "@fortawesome/free-brands-svg-icons"
+
+import { faHome, faScrewdriver,   } from "@fortawesome/free-solid-svg-icons";
 
 import {
     Laptop,
     Server,
     AirVent,
-    AirVentIcon
+    AirVentIcon,
+    HomeIcon,
+    UserRound,
+    BookText,
+    CodeSquare,
+    Speech
     
   } from "lucide-react";
-
 
 
 export const socialNetworks = [
@@ -29,7 +36,7 @@ export const socialNetworks = [
     {
         id: 3,
         icon: <FontAwesomeIcon icon={faWhatsapp} size="2x"/>,
-        src: "https://web.whatsapp.com/",
+        src: "https://wa.link/rjba0v",
     },
 ]
 
@@ -54,4 +61,21 @@ export const serviceData = [
       titleKey: "services.goodCleaning.title",
       descriptionKey: "services.goodCleaning.description",
     },
+  ];
+
+  export const itemsNavbar = [
+    {
+      id: 1,
+      title: "Home",
+      icon: <FontAwesomeIcon icon={faHome} size="1x"/>,
+      link: "/",
+    },
+    {
+      id: 3,
+      title: "Book",
+      icon: <FontAwesomeIcon icon={faScrewdriver} size="1x"/>,
+      link: "/services",
+    },
+
+
   ];

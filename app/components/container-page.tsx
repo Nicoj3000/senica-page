@@ -1,16 +1,15 @@
-
 interface ContainerPageProps {
-    children: React.ReactNode
-}
-
-const ContainerPage = (props: ContainerPageProps) => {
-    const { children } = props
-
+    children: React.ReactNode;
+  }
+  
+  const ContainerPage = (props: ContainerPageProps) => {
+    const { children } = props;
+  
     return (
-        <div className="w-full max-w-6xl px-4 pb-40 mx-auto mt-25 md:pb-0 md:px-6">
-            {children}
-        </div>
+      <div className="flex items-center justify-center w-full  h-full  mt-36 ">
+        {children}
+      </div>
     );
-}
-
-export default ContainerPage;
+  };
+  
+  export default ContainerPage;

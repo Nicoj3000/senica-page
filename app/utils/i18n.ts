@@ -4,7 +4,10 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   en: {
     translation: {
-      Introduction: "Senica is a company dedicated to the sale and installation of air conditioning and refrigeration equipment.",
+      titleservice1: "Maintenance of air conditioners",
+      titleservice2: "Air conditioning installation",
+      titleservice3: "Construction of cold rooms",
+      titleourService: "Our services",
       services: {
         maintenance: {
           title: "Air conditioning maintenance",
@@ -22,13 +25,15 @@ const resources = {
           title: "Good cleaning",
           description: "We offer cleaning services for air conditioning equipment, we have a team of professionals who will help you keep your equipment in optimal conditions.", 
         },
-        
       },
     },
   },
   es: {
     translation: {
-      Introduction: "Senica es una empresa dedicada a la venta e instalación de equipos de aire acondicionado y refrigeración.",
+      titleservice1: "Mantenimiento de aires acondicionados",
+      titleservice2: "Instalación de aires acondicionados",
+      titleservice3: "Construcción de cámaras frigoríficas",
+      titleourService: "Nuestros servicios",
       services: {
         maintenance: {
           title: "Mantenimiento de aires acondicionados",
@@ -46,10 +51,8 @@ const resources = {
           title: "Buena limpieza",
           description: "Ofrecemos servicios de limpieza para equipos de aire acondicionado, contamos con un equipo de profesionales que le ayudarán a mantener su equipo en condiciones óptimas.", 
         },
-        
       },
     },
-    
   },
 };
 
