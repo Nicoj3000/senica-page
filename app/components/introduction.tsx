@@ -1,9 +1,7 @@
 import Image from "next/image";
-import { useTranslation } from "react-i18next";
 import SliderServices from "./slider-services";
 
 const Introduction = () => {
-  const { t } = useTranslation();
 
   return (
     <div className="flex flex-col md:flex-row items-center justify-center w-full gap-10 mr-2 p-10 py-30 md:py-6 ">
