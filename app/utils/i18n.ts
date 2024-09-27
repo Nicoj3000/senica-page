@@ -7,6 +7,15 @@ const resources = {
       titleservice1: "Maintenance of air conditioners",
       titleservice2: "Air conditioning installation",
       titleservice3: "Construction of cold rooms",
+      titleservice4: "Design of refrigeration systems",
+      titleservice5: "Maintenance of air conditioners",
+      titleservice6: "Air conditioning installation",
+      titleservice7: "Construction of cold rooms",
+      titleservice8: "Design of refrigeration systems",
+      titleservice9: "Maintenance of air conditioners",
+      titleservice10: "Air conditioning installation",
+      titleservice11: "Construction of cold rooms",
+      titleservice12: "Design of refrigeration systems",
       titleourService: "Our services",
       services: {
         maintenance: {
@@ -33,6 +42,15 @@ const resources = {
       titleservice1: "Mantenimiento de aires acondicionados",
       titleservice2: "Instalación de aires acondicionados",
       titleservice3: "Construcción de cámaras frigoríficas",
+      titleservice4: "Diseño de sistemas de refrigeración",
+      titleservice5: "Mantenimiento de aires acondicionados",
+      titleservice6: "Instalación de aires acondicionados",
+      titleservice7: "Construcción de cámaras frigoríficas",
+      titleservice8: "Diseño de sistemas de refrigeración",
+      titleservice9: "Mantenimiento de aires acondicionados",
+      titleservice10: "Instalación de aires acondicionados",
+      titleservice11: "Construcción de cámaras frigoríficas",
+      titleservice12: "Diseño de sistemas de refrigeración",
       titleourService: "Nuestros servicios",
       services: {
         maintenance: {

@@ -22,7 +22,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
         alt={t(title)}
         width={300}
         height={300}
-        className="w-full md:w-[300px] rounded-2xl h-auto"
+        className="w-full md:w-[800px] rounded-2xl h-auto"
       />
     </div>
   );

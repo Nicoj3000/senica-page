@@ -16,8 +16,7 @@ const Introduction = () => {
           className="mx-auto md:w-[350px] md:h-[350px] h-[300px] w-[300px] mt-10 "
         />
       </div>
-        <SliderServices />
-
+        <SliderServices/>
     </div>
   );
 };

@@ -12,8 +12,17 @@ const ServicesPage = () => {
 
   const services = [
     { id: 1, title: "titleservice1", image: "/mant.png" },
-    { id: 2, title: "titleservice2", image: "/instala.jpg" },
-    { id: 3, title: "titleservice3", image: "/Cuarto.jpg" },
+    { id: 2, title: "titleservice2", image: "/instala.png" },
+    { id: 3, title: "titleservice3", image: "/Cuarto.png" },
+    { id: 4, title: "titleservice4", image: "/diseno.png" },
+    { id: 5, title: "titleservice5", image: "/Cuarto.png" },
+    { id: 6, title: "titleservice6", image: "/Cuarto.png" },
+    { id: 7, title: "titleservice7", image: "/Cuarto.png" },
+    { id: 8, title: "titleservice8", image: "/Cuarto.png" },
+    { id: 9, title: "titleservice9", image: "/Cuarto.png" },
+    { id: 10, title: "titleservice10", image: "/Cuarto.png" },
+    { id: 11, title: "titleservice11", image: "/Cuarto.png" },
+    { id: 12, title: "titleservice12", image: "/Cuarto.png" },
   ];
 
   return (
