@@ -15,7 +15,7 @@ const Header = () => {
         <div className="container flex justify-between items-center max-w-6xl mx-auto">
           <div className="flex items-center space-x-4">
             <Link href="/">
-              <h1 className="my-4 mt-5 text-4xl font-bold text-left">
+              <h1 className=" text-4xl font-bold text-left">
                 Home
               </h1>
             </Link>

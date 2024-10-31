@@ -18,7 +18,10 @@ const LanguageSelector: React.FC = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative flex items-center space-x-2">
+      <span className="text-3xl font-bold text-white select-none">
+        {i18n.language === 'es' ? 'ES' : 'EN'}
+      </span>
       <legend
         className="text-3xl mt-1 font-bold text-white select-none cursor-pointer flex items-center"
         onClick={toggleDropdown}
@@ -32,7 +35,7 @@ const LanguageSelector: React.FC = () => {
         <div className="absolute left-0 mt-2 w-[150px] bg-#0a0a0a p-2 rounded-lg shadow-lg z-50">
           <label
             htmlFor="en"
-            className="font-medium h-10 relative hover:bg-g#0a0a0a transition-all duration-300 flex items-center px-3 gap-2 rounded-lg has-[:checked]:text-blue-400 has-[:checked]:bg-#0a0a0a has-[:checked]:ring-blue-500 has-[:checked]:ring-2 select-none cursor-pointer"
+            className="font-medium h-10 relative hover:bg-#0a0a0a transition-all duration-300 flex items-center px-3 gap-2 rounded-lg has-[:checked]:text-blue-400 has-[:checked]:bg-#0a0a0a has-[:checked]:ring-blue-500 has-[:checked]:ring-2 select-none cursor-pointer"
           >
             <span className="text-white">English</span>
             <input
