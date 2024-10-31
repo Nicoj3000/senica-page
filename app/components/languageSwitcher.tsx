@@ -7,25 +7,32 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const LanguageSelector: React.FC = () => {
   const { i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
+  const [, setLanguage] = useState(i18n.language); // Estado local para forzar la actualización
 
   const changeLanguage = (event: React.ChangeEvent<HTMLInputElement>) => {
-    i18n.changeLanguage(event.target.value);
-    setIsOpen(false); // Close the dropdown after selecting a language
+    i18n.changeLanguage(event.target.value).then(() => {
+      setLanguage(event.target.value); // Actualiza el estado local para forzar la actualización
+    });
+    setIsOpen(false); // Cierra el menú desplegable después de seleccionar un idioma
   };
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
 
+  const capitalizeFirstLetter = (string: string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  };
+
+  const currentLanguage = i18n.language ? capitalizeFirstLetter(i18n.language) : 'En';
+
   return (
-    <div className="relative flex items-center space-x-2">
-      <span className="text-3xl font-bold text-white select-none">
-        {i18n.language === 'es' ? 'ES' : 'EN'}
-      </span>
+    <div className="relative">
       <legend
         className="text-3xl mt-1 font-bold text-white select-none cursor-pointer flex items-center"
         onClick={toggleDropdown}
       >
+        <span className="mr-2">{currentLanguage}</span>
         <span className="mr-2">
           <FontAwesomeIcon icon={faEarthAmericas} />
         </span>
